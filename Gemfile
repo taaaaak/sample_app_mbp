@@ -4,4 +4,20 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem "rails", "5.1.6"
+# NoMethodError: assert_template has been extracted to a gem.
+gem 'rails-controller-testing'
+gem 'sassc-rails'
+gem 'rails', '5.1.6'
+gem 'sqlite3', '1.3.13'
+gem 'coffee-rails'
+gem 'jquery-rails'
+gem 'bootstrap-sass'
+# gem 'bootstrap'
+gem 'turbolinks'
+gem 'bcrypt'
+
+## ここまでhomeページ表示部分
+
+gem 'will_paginate'
+
+## ここまでusers/indexページ表示部分
